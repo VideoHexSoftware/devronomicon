@@ -1,7 +1,7 @@
 site:
   title: Devronomicon
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://VideoHexSoftware.github.io/devronomicon
+  url: https://videohexsoftware.github.io/devronomicon
   start_page: tools::overview.adoc
 content:
   sources:
