@@ -29,6 +29,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
-        external_repository: https://github.com/VideoHexSoftware/devronomicon.git
+        external_repository: VideoHexSoftware/devronomicon
         publish_dir: ./public
         publish_branch: main
