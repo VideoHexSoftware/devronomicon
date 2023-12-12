@@ -23,5 +23,6 @@ ui:
     contents: |
       static_files:
       - .nojekyll
-      - ./supplemental-ui/partials/header-content.hbs
   - path: .nojekyll
+  - path: partials/header-content.hbs
+    contents: ./supplemental-ui/partials/header-content.hbs
