@@ -25,3 +25,8 @@ ui:
       static_files:
       - .nojekyll
   - path: .nojekyll
+    # removes the default menus in the top navbar
+  - path: partials/header-content.hbs
+    contents: |
+      static_files:
+      - ./supplemental-ui/partials/header-content.hbs
